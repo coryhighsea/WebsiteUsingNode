@@ -35,6 +35,10 @@ app.get('/smallposts', (req, res) =>{
 app.get('/photogallery', (req, res) => {
     res.render('photogallery');
 })
+
+app.get('/contact', (req, res) => {
+    res.render('contact');
+})
 app.use(express.static(process.env.PWD + '/public'));
 
 app.use(express.static(__dirname + '/public'));
