@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/09d94926-8388-4bf0-abeb-05327df7f0d5/resourceGroups/coryhighsea/providers/Microsoft.Web/sites/coryhighsea",
+    "appService.deploySubpath": ""
+}
